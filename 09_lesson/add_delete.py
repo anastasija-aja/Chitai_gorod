@@ -6,14 +6,6 @@ DB_CONNECTION_STRING = "postgresql://postgres:123@localhost:5432/postgres"
 
 engine = create_engine(DB_CONNECTION_STRING)
 
-
-try:
-    with engine.connect() as connection:
-        print("Подключение успешно!")
-except Exception as e:
-    print("Ошибка подключения:", e)
-
-
 def create_dining_room_table():
     metadata = MetaData()
 

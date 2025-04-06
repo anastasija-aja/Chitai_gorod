@@ -6,14 +6,6 @@ db_connection_string = "postgresql://postgres:123@localhost:5432/postgres"
 
 engine = create_engine(db_connection_string)
 
-
-try:
-    with engine.connect() as connection:
-        print("Подключение успешно!")
-except Exception as e:
-    print("Ошибка подключения:", e)
-
-
 def create_classroom_table():
 
     metadata = MetaData()

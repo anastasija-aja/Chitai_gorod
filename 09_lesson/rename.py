@@ -45,10 +45,3 @@ def test_db_connection():
             print(f"- {table}")
     else:
         print("В базе данных нет таблиц.")
-
-# Тестирование подключения
-try:
-    with engine.connect() as connection:
-        print("Подключение успешно!")
-except Exception as e:
-    print("Ошибка подключения:", e)
