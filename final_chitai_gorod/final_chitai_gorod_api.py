@@ -57,7 +57,7 @@ def get_access_token():
             print("Браузер успешно закрыт")
 
 
-# Тест на получение списка товаров в разделе Планшеты
+# Тест на получение списка товаров в разделе "Планшеты"
 def test_search_facet_with_token():
     try:
         # Получение токена
@@ -109,7 +109,7 @@ def test_search_facet_with_token():
         return None
 
 
-# Тест на получение списка товаров в разделе Товары для художников
+# Тест на получение списка товаров в разделе "Товары для художников"
 def test_page_constructor_with_token():
     try:
         # Получение токена
@@ -162,7 +162,7 @@ def test_page_constructor_with_token():
         return None
 
 
-# Тест перехода в раздел Доставка и оплата
+# Тест перехода в раздел "Доставка и оплата"
 def test_tinkoff_percentage_auth():
     try:
         # URL для запроса
@@ -226,7 +226,7 @@ if __name__ == "__main__":
         test_tinkoff_percentage_auth()
 
 
-# Тест на получение списка товаров в разделе Скидки и Акции
+# Тест на получение списка товаров в разделе "Скидки и Акции"
 def test_product_collections_with_token():
     try:
         # Получение токена
