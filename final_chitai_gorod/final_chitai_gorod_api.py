@@ -226,7 +226,7 @@ if __name__ == "__main__":
         test_tinkoff_percentage_auth()
 
 
-# Тест на получение списка товаров в разделе "Скидки и Акции"
+# Тест на получение списка товаров в разделе 'Скидки и Акции'
 def test_product_collections_with_token():
     try:
         # Получение токена
