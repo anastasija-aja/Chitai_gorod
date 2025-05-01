@@ -13,7 +13,7 @@ API тестирование
 
 Для запуска тестов используйте команду pytest.
 
-https://github.com/anastasija-aja/Final_chitai_gorod
+https://github.com/anastasija-aja/Chitai_gorod
 
 anastasija-aja
 anastasija1111!
