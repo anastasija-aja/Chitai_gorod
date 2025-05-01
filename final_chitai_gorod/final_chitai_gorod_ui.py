@@ -111,7 +111,7 @@ def test_positive_checkout(driver):
         )
 
 
-    with allure.step("Ввод имени, отчества и фамилии автора"):
+    with allure.step("Ввод имени отчества и фамилии автора"):
         search_form.send_keys("Агния Львовна Барто")
 
     search_form.send_keys(Keys.RETURN)
