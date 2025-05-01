@@ -108,7 +108,7 @@ def test_search_facet_with_token():
         return None
 
 
-# Тест перехода на страницу Скидки и акции
+# Тест перехода на страницу 'Скидки и акции'
 def test_page_constructor_with_token():
     try:
         # Получение токена
@@ -161,7 +161,7 @@ def test_page_constructor_with_token():
         return None
 
 
-# Тест перехода на страницу Доставка и оплата
+# Тест перехода на страницу 'Доставка и оплата'
 def test_tinkoff_percentage_auth():
     try:
         # URL для запроса
@@ -224,7 +224,7 @@ if __name__ == "__main__":
     elif args.test == "tinkoff_auth":
         test_tinkoff_percentage_auth()
 
-# Тест поиска товаров Планшеты
+# Тест поиска товаров 'Планшеты'
 def test_product_collections_with_token():
     try:
         # Получение токена
