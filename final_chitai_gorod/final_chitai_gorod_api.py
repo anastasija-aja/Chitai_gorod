@@ -56,7 +56,7 @@ def get_access_token():
             driver.quit()
             print("Браузер успешно закрыт")
 
-# Тест поиска товаров дл
+# Тест поиска товаров для художников
 def test_search_facet_with_token():
     try:
         # Получение токена
@@ -108,7 +108,7 @@ def test_search_facet_with_token():
         return None
 
 
-
+# Тест перехода на страницу Скидки и акции
 def test_page_constructor_with_token():
     try:
         # Получение токена
@@ -161,7 +161,7 @@ def test_page_constructor_with_token():
         return None
 
 
-
+# Тест перехода на страницу Доставка и оплата
 def test_tinkoff_percentage_auth():
     try:
         # URL для запроса
@@ -224,7 +224,7 @@ if __name__ == "__main__":
     elif args.test == "tinkoff_auth":
         test_tinkoff_percentage_auth()
 
-
+# Тест поиска товаров Планшеты
 def test_product_collections_with_token():
     try:
         # Получение токена
@@ -275,7 +275,7 @@ def test_product_collections_with_token():
         print(f"Произошла ошибка: {str(e)}")
         return None
 
-
+# Тест поиска книг по фио автора
 def test_new_endpoint_with_token():
     try:
         # Получение токена
