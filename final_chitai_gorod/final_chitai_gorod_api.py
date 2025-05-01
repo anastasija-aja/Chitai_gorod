@@ -108,7 +108,7 @@ def test_search_facet_with_token():
         return None
 
 
-# Тест перехода на страницу "Скидки и акции"
+# Тест перехода на страницу 'Скидки и акции'
 def test_page_constructor_with_token():
     try:
         # Получение токена
