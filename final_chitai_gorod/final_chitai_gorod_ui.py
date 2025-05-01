@@ -98,6 +98,7 @@ def test_positive_login(driver):
             )
         raise
 
+
 @allure.feature("Тест поиска книг по имени, отчеству и фамилии автора через строку поиска")
 @allure.story("Тест поиска книг по имени, отчеству и фамилии автора через строку поиска")
 def test_positive_checkout(driver):
@@ -231,6 +232,7 @@ def test_positive_checkout(driver):
 
     with allure.step("Завершение теста"):
         driver.quit()
+
 
 @allure.feature("Тест удаления товара из корзины")
 @allure.story("Тест удаления товара из корзины")

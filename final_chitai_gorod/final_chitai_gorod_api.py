@@ -56,7 +56,7 @@ def get_access_token():
             driver.quit()
             print("Браузер успешно закрыт")
 
-
+# Тест поиска товаров дл
 def test_search_facet_with_token():
     try:
         # Получение токена
